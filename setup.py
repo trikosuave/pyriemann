@@ -12,7 +12,7 @@ setup(
 
         packages        = ['riemann', 'riemann.pb'],
         zip_safe = False,
-        install_requires = ['%s>=%s' % x for x in dict(
+        install_requires = ['%s==%s' % x for x in dict(
             protobuf    = "2.4.1",
         ).items()],
 
